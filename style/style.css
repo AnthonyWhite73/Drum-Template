@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100vh;
+    width: 100 vw;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+        90deg,
+        rgba(2, 0, 36, 1) 0%,
+        rgba(117, 117, 134, 1) 4%,
+        rgba(0, 212, 255, 1) 100%
+  );
+}
+
+#buttonContainer {
+    min-width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px, 25px, 150px, 25px;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    background-color: black;
+    border-radius: 25px;
+    color: white;
+}
+
+.smallButton {
+    background-color: red;
+    padding: 5px;
+}
